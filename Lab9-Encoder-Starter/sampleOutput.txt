@@ -1,0 +1,39 @@
+======SAMPLE RUN 1: Everything is awesome===========================
+What is the Morse code mapping file named? morse.csv
+Which file to encode? simple.txt
+Where to write the output? simple.out
+<<SUCCESS>> Refresh the Eclipse project folder and view the file!
+
+======SAMPLE RUN 2: Morse code map doesn't exist====================
+What is the Morse code mapping file named? badfile.csv
+Which file to encode? simple.txt
+Where to write the output? simple.out
+<<ERROR>> That file doesn't exist. Let's try again.
+
+What is the Morse code mapping file named? morse.csv
+Which file to encode? simple2.txt
+Where to write the output? simple.out
+<<SUCCESS>> Refresh the Eclipse project folder and view the file!
+
+=====SAMPLE RUN 3: Input file doesn't exist, multiple===============
+What is the Morse code mapping file named? morse.csv
+Which file to encode? brokenfile.txt
+Where to write the output? broken.out
+<<ERROR>> That file doesn't exist. Let's try again.
+
+What is the Morse code mapping file named? morse.csv
+Which file to encode? stillbroken
+Where to write the output? broken.out
+<<ERROR>> That file doesn't exist. Let's try again.
+
+What is the Morse code mapping file named? morse.csv
+Which file to encode? simple.txt
+Where to write the output? out.txt
+<<SUCCESS>> Refresh the Eclipse project folder and view the file!
+
+=====SAMPLE RUN 4: Input file exists but contains an @ sign==========
+What is the Morse code mapping file named? morse.csv
+Which file to encode? badInput.txt
+Where to write the output? out.txt
+<<ERROR>> The input file contains a character that could not be encoded.
+<<BAD CHAR = @>>
